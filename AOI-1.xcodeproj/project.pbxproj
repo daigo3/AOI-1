@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA233111180BB0BA00334826 /* bird1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA23310A180BB0BA00334826 /* bird1.mp3 */; };
+		FA233112180BB0BA00334826 /* bird3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA23310B180BB0BA00334826 /* bird3.mp3 */; };
+		FA233113180BB0BA00334826 /* bird6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA23310C180BB0BA00334826 /* bird6.mp3 */; };
+		FA233114180BB0BA00334826 /* bird13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA23310D180BB0BA00334826 /* bird13.mp3 */; };
+		FA233115180BB0BA00334826 /* bird27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA23310E180BB0BA00334826 /* bird27.mp3 */; };
+		FA233116180BB0BA00334826 /* dog1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA23310F180BB0BA00334826 /* dog1.mp3 */; };
+		FA233117180BB0BA00334826 /* dog2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA233110180BB0BA00334826 /* dog2.mp3 */; };
+		FA766A1518099358009F4FAE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A1418099358009F4FAE /* Accelerate.framework */; };
+		FA766A1718099358009F4FAE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A1618099358009F4FAE /* AVFoundation.framework */; };
+		FA766A1918099358009F4FAE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A1818099358009F4FAE /* CoreFoundation.framework */; };
+		FA766A1B18099358009F4FAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A1A18099358009F4FAE /* CoreGraphics.framework */; };
+		FA766A1D18099358009F4FAE /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A1C18099358009F4FAE /* CoreImage.framework */; };
+		FA766A1F18099358009F4FAE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A1E18099358009F4FAE /* CoreMedia.framework */; };
+		FA766A2118099358009F4FAE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A2018099358009F4FAE /* CoreText.framework */; };
+		FA766A2318099358009F4FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A2218099358009F4FAE /* Foundation.framework */; };
+		FA766A2518099358009F4FAE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A2418099358009F4FAE /* OpenGLES.framework */; };
+		FA766A2718099358009F4FAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A2618099358009F4FAE /* QuartzCore.framework */; };
+		FA766A2918099358009F4FAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A2818099358009F4FAE /* UIKit.framework */; };
+		FA766A2F18099358009F4FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA766A2D18099358009F4FAE /* InfoPlist.strings */; };
+		FA766A3118099358009F4FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA766A3018099358009F4FAE /* main.m */; };
+		FA766A3518099358009F4FAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA766A3418099358009F4FAE /* Images.xcassets */; };
+		FA766A6618099359009F4FAE /* C4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA766A6518099359009F4FAE /* C4AppDelegate.m */; };
+		FA766A6C18099359009F4FAE /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A6B18099359009F4FAE /* libC4.a */; };
+		FA766A7018099359009F4FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA766A6E18099359009F4FAE /* Main.storyboard */; };
+		FA766A7318099359009F4FAE /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = FA766A7218099359009F4FAE /* C4WorkSpace.m */; };
+		FA766A7A18099359009F4FAE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A7918099359009F4FAE /* XCTest.framework */; };
+		FA766A7B18099359009F4FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A2218099358009F4FAE /* Foundation.framework */; };
+		FA766A7C18099359009F4FAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA766A2818099358009F4FAE /* UIKit.framework */; };
+		FA766A8418099359009F4FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA766A8218099359009F4FAE /* InfoPlist.strings */; };
+		FA766A8618099359009F4FAE /* AOI_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA766A8518099359009F4FAE /* AOI_1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA766A7D18099359009F4FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA766A0918099358009F4FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA766A1018099358009F4FAE;
+			remoteInfo = "AOI-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA23310A180BB0BA00334826 /* bird1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bird1.mp3; path = Media/bird1.mp3; sourceTree = "<group>"; };
+		FA23310B180BB0BA00334826 /* bird3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bird3.mp3; path = Media/bird3.mp3; sourceTree = "<group>"; };
+		FA23310C180BB0BA00334826 /* bird6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bird6.mp3; path = Media/bird6.mp3; sourceTree = "<group>"; };
+		FA23310D180BB0BA00334826 /* bird13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bird13.mp3; path = Media/bird13.mp3; sourceTree = "<group>"; };
+		FA23310E180BB0BA00334826 /* bird27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bird27.mp3; path = Media/bird27.mp3; sourceTree = "<group>"; };
+		FA23310F180BB0BA00334826 /* dog1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dog1.mp3; path = Media/dog1.mp3; sourceTree = "<group>"; };
+		FA233110180BB0BA00334826 /* dog2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dog2.mp3; path = Media/dog2.mp3; sourceTree = "<group>"; };
+		FA766A1118099358009F4FAE /* AOI-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOI-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA766A1418099358009F4FAE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FA766A1618099358009F4FAE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA766A1818099358009F4FAE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FA766A1A18099358009F4FAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA766A1C18099358009F4FAE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		FA766A1E18099358009F4FAE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FA766A2018099358009F4FAE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FA766A2218099358009F4FAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA766A2418099358009F4FAE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FA766A2618099358009F4FAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA766A2818099358009F4FAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA766A2C18099358009F4FAE /* AOI-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOI-1-Info.plist"; sourceTree = "<group>"; };
+		FA766A2E18099358009F4FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA766A3018099358009F4FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA766A3218099358009F4FAE /* AOI-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOI-1-Prefix.pch"; sourceTree = "<group>"; };
+		FA766A3418099358009F4FAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA766A3918099359009F4FAE /* C4ActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ActivityIndicator.h; path = Headers/C4ActivityIndicator.h; sourceTree = "<group>"; };
+		FA766A3A18099359009F4FAE /* C4AddSubview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4AddSubview.h; path = Headers/C4AddSubview.h; sourceTree = "<group>"; };
+		FA766A3B18099359009F4FAE /* C4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4AppDelegate.h; path = Headers/C4AppDelegate.h; sourceTree = "<group>"; };
+		FA766A3C18099359009F4FAE /* C4AssertionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4AssertionHandler.h; path = Headers/C4AssertionHandler.h; sourceTree = "<group>"; };
+		FA766A3D18099359009F4FAE /* C4Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Button.h; path = Headers/C4Button.h; sourceTree = "<group>"; };
+		FA766A3E18099359009F4FAE /* C4Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Camera.h; path = Headers/C4Camera.h; sourceTree = "<group>"; };
+		FA766A3F18099359009F4FAE /* C4CameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CameraController.h; path = Headers/C4CameraController.h; sourceTree = "<group>"; };
+		FA766A4018099359009F4FAE /* C4CameraLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CameraLayer.h; path = Headers/C4CameraLayer.h; sourceTree = "<group>"; };
+		FA766A4118099359009F4FAE /* C4CanvasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CanvasController.h; path = Headers/C4CanvasController.h; sourceTree = "<group>"; };
+		FA766A4218099359009F4FAE /* C4Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Control.h; path = Headers/C4Control.h; sourceTree = "<group>"; };
+		FA766A4318099359009F4FAE /* C4Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Defines.h; path = Headers/C4Defines.h; sourceTree = "<group>"; };
+		FA766A4418099359009F4FAE /* C4EAGLES1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLES1Renderer.h; path = Headers/C4EAGLES1Renderer.h; sourceTree = "<group>"; };
+		FA766A4518099359009F4FAE /* C4EAGLESRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLESRenderer.h; path = Headers/C4EAGLESRenderer.h; sourceTree = "<group>"; };
+		FA766A4618099359009F4FAE /* C4EAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLLayer.h; path = Headers/C4EAGLLayer.h; sourceTree = "<group>"; };
+		FA766A4718099359009F4FAE /* C4Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Font.h; path = Headers/C4Font.h; sourceTree = "<group>"; };
+		FA766A4818099359009F4FAE /* C4Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Foundation.h; path = Headers/C4Foundation.h; sourceTree = "<group>"; };
+		FA766A4918099359009F4FAE /* C4Gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Gesture.h; path = Headers/C4Gesture.h; sourceTree = "<group>"; };
+		FA766A4A18099359009F4FAE /* C4GL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL.h; path = Headers/C4GL.h; sourceTree = "<group>"; };
+		FA766A4B18099359009F4FAE /* C4GL1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL1Renderer.h; path = Headers/C4GL1Renderer.h; sourceTree = "<group>"; };
+		FA766A4C18099359009F4FAE /* C4Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Image.h; path = Headers/C4Image.h; sourceTree = "<group>"; };
+		FA766A4D18099359009F4FAE /* C4ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ImageView.h; path = Headers/C4ImageView.h; sourceTree = "<group>"; };
+		FA766A4E18099359009F4FAE /* C4Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Label.h; path = Headers/C4Label.h; sourceTree = "<group>"; };
+		FA766A4F18099359009F4FAE /* C4Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Layer.h; path = Headers/C4Layer.h; sourceTree = "<group>"; };
+		FA766A5018099359009F4FAE /* C4LayerAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4LayerAnimation.h; path = Headers/C4LayerAnimation.h; sourceTree = "<group>"; };
+		FA766A5118099359009F4FAE /* C4Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Math.h; path = Headers/C4Math.h; sourceTree = "<group>"; };
+		FA766A5218099359009F4FAE /* C4MethodDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4MethodDelay.h; path = Headers/C4MethodDelay.h; sourceTree = "<group>"; };
+		FA766A5318099359009F4FAE /* C4Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Movie.h; path = Headers/C4Movie.h; sourceTree = "<group>"; };
+		FA766A5418099359009F4FAE /* C4MovieLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4MovieLayer.h; path = Headers/C4MovieLayer.h; sourceTree = "<group>"; };
+		FA766A5518099359009F4FAE /* C4Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Notification.h; path = Headers/C4Notification.h; sourceTree = "<group>"; };
+		FA766A5618099359009F4FAE /* C4Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Object.h; path = Headers/C4Object.h; sourceTree = "<group>"; };
+		FA766A5718099359009F4FAE /* C4Sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Sample.h; path = Headers/C4Sample.h; sourceTree = "<group>"; };
+		FA766A5818099359009F4FAE /* C4ScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ScrollView.h; path = Headers/C4ScrollView.h; sourceTree = "<group>"; };
+		FA766A5918099359009F4FAE /* C4Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Shape.h; path = Headers/C4Shape.h; sourceTree = "<group>"; };
+		FA766A5A18099359009F4FAE /* C4ShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ShapeLayer.h; path = Headers/C4ShapeLayer.h; sourceTree = "<group>"; };
+		FA766A5B18099359009F4FAE /* C4Slider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Slider.h; path = Headers/C4Slider.h; sourceTree = "<group>"; };
+		FA766A5C18099359009F4FAE /* C4Stepper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Stepper.h; path = Headers/C4Stepper.h; sourceTree = "<group>"; };
+		FA766A5D18099359009F4FAE /* C4Switch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Switch.h; path = Headers/C4Switch.h; sourceTree = "<group>"; };
+		FA766A5E18099359009F4FAE /* C4Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Timer.h; path = Headers/C4Timer.h; sourceTree = "<group>"; };
+		FA766A5F18099359009F4FAE /* C4UIElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4UIElement.h; path = Headers/C4UIElement.h; sourceTree = "<group>"; };
+		FA766A6018099359009F4FAE /* C4Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Vector.h; path = Headers/C4Vector.h; sourceTree = "<group>"; };
+		FA766A6118099359009F4FAE /* C4View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4View.h; path = Headers/C4View.h; sourceTree = "<group>"; };
+		FA766A6218099359009F4FAE /* C4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ViewController.h; path = Headers/C4ViewController.h; sourceTree = "<group>"; };
+		FA766A6318099359009F4FAE /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
+		FA766A6418099359009F4FAE /* UIColor+CIColorFix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIColor+CIColorFix.h"; path = "Headers/UIColor+CIColorFix.h"; sourceTree = "<group>"; };
+		FA766A6518099359009F4FAE /* C4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = C4AppDelegate.m; path = implementation/C4AppDelegate.m; sourceTree = "<group>"; };
+		FA766A6B18099359009F4FAE /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libC4.a; sourceTree = "<group>"; };
+		FA766A6F18099359009F4FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA766A7118099359009F4FAE /* C4WorkSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4WorkSpace.h; sourceTree = "<group>"; };
+		FA766A7218099359009F4FAE /* C4WorkSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4WorkSpace.m; sourceTree = "<group>"; };
+		FA766A7818099359009F4FAE /* AOI-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AOI-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA766A7918099359009F4FAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA766A8118099359009F4FAE /* AOI-1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOI-1Tests-Info.plist"; sourceTree = "<group>"; };
+		FA766A8318099359009F4FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA766A8518099359009F4FAE /* AOI_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOI_1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA766A0E18099358009F4FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA766A6C18099359009F4FAE /* libC4.a in Frameworks */,
+				FA766A2718099358009F4FAE /* QuartzCore.framework in Frameworks */,
+				FA766A2918099358009F4FAE /* UIKit.framework in Frameworks */,
+				FA766A1F18099358009F4FAE /* CoreMedia.framework in Frameworks */,
+				FA766A1B18099358009F4FAE /* CoreGraphics.framework in Frameworks */,
+				FA766A1718099358009F4FAE /* AVFoundation.framework in Frameworks */,
+				FA766A1D18099358009F4FAE /* CoreImage.framework in Frameworks */,
+				FA766A2118099358009F4FAE /* CoreText.framework in Frameworks */,
+				FA766A1518099358009F4FAE /* Accelerate.framework in Frameworks */,
+				FA766A1918099358009F4FAE /* CoreFoundation.framework in Frameworks */,
+				FA766A2318099358009F4FAE /* Foundation.framework in Frameworks */,
+				FA766A2518099358009F4FAE /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA766A7518099359009F4FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA766A7A18099359009F4FAE /* XCTest.framework in Frameworks */,
+				FA766A7C18099359009F4FAE /* UIKit.framework in Frameworks */,
+				FA766A7B18099359009F4FAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA766A0818099358009F4FAE = {
+			isa = PBXGroup;
+			children = (
+				FA766A2A18099358009F4FAE /* AOI-1 */,
+				FA766A7F18099359009F4FAE /* AOI-1Tests */,
+				FA766A1318099358009F4FAE /* Frameworks */,
+				FA766A1218099358009F4FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA766A1218099358009F4FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA766A1118099358009F4FAE /* AOI-1.app */,
+				FA766A7818099359009F4FAE /* AOI-1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA766A1318099358009F4FAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA766A1418099358009F4FAE /* Accelerate.framework */,
+				FA766A1618099358009F4FAE /* AVFoundation.framework */,
+				FA766A1818099358009F4FAE /* CoreFoundation.framework */,
+				FA766A1A18099358009F4FAE /* CoreGraphics.framework */,
+				FA766A1C18099358009F4FAE /* CoreImage.framework */,
+				FA766A1E18099358009F4FAE /* CoreMedia.framework */,
+				FA766A2018099358009F4FAE /* CoreText.framework */,
+				FA766A2218099358009F4FAE /* Foundation.framework */,
+				FA766A2418099358009F4FAE /* OpenGLES.framework */,
+				FA766A2618099358009F4FAE /* QuartzCore.framework */,
+				FA766A2818099358009F4FAE /* UIKit.framework */,
+				FA766A7918099359009F4FAE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA766A2A18099358009F4FAE /* AOI-1 */ = {
+			isa = PBXGroup;
+			children = (
+				FA766A7118099359009F4FAE /* C4WorkSpace.h */,
+				FA766A7218099359009F4FAE /* C4WorkSpace.m */,
+				FA766A3318099358009F4FAE /* Media */,
+				FA766A3818099359009F4FAE /* Framework */,
+				FA766A6D18099359009F4FAE /* Storyboards */,
+				FA766A2B18099358009F4FAE /* Supporting Files */,
+			);
+			path = "AOI-1";
+			sourceTree = "<group>";
+		};
+		FA766A2B18099358009F4FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA766A2C18099358009F4FAE /* AOI-1-Info.plist */,
+				FA766A2D18099358009F4FAE /* InfoPlist.strings */,
+				FA766A3018099358009F4FAE /* main.m */,
+				FA766A3218099358009F4FAE /* AOI-1-Prefix.pch */,
+				FA766A3B18099359009F4FAE /* C4AppDelegate.h */,
+				FA766A6518099359009F4FAE /* C4AppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA766A3318099358009F4FAE /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				FA23310A180BB0BA00334826 /* bird1.mp3 */,
+				FA23310B180BB0BA00334826 /* bird3.mp3 */,
+				FA23310C180BB0BA00334826 /* bird6.mp3 */,
+				FA23310D180BB0BA00334826 /* bird13.mp3 */,
+				FA23310E180BB0BA00334826 /* bird27.mp3 */,
+				FA23310F180BB0BA00334826 /* dog1.mp3 */,
+				FA233110180BB0BA00334826 /* dog2.mp3 */,
+				FA766A3418099358009F4FAE /* Images.xcassets */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		FA766A3818099359009F4FAE /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FA766A3918099359009F4FAE /* C4ActivityIndicator.h */,
+				FA766A3A18099359009F4FAE /* C4AddSubview.h */,
+				FA766A3C18099359009F4FAE /* C4AssertionHandler.h */,
+				FA766A3D18099359009F4FAE /* C4Button.h */,
+				FA766A3E18099359009F4FAE /* C4Camera.h */,
+				FA766A3F18099359009F4FAE /* C4CameraController.h */,
+				FA766A4018099359009F4FAE /* C4CameraLayer.h */,
+				FA766A4118099359009F4FAE /* C4CanvasController.h */,
+				FA766A4218099359009F4FAE /* C4Control.h */,
+				FA766A4318099359009F4FAE /* C4Defines.h */,
+				FA766A4418099359009F4FAE /* C4EAGLES1Renderer.h */,
+				FA766A4518099359009F4FAE /* C4EAGLESRenderer.h */,
+				FA766A4618099359009F4FAE /* C4EAGLLayer.h */,
+				FA766A4718099359009F4FAE /* C4Font.h */,
+				FA766A4818099359009F4FAE /* C4Foundation.h */,
+				FA766A4918099359009F4FAE /* C4Gesture.h */,
+				FA766A4A18099359009F4FAE /* C4GL.h */,
+				FA766A4B18099359009F4FAE /* C4GL1Renderer.h */,
+				FA766A4C18099359009F4FAE /* C4Image.h */,
+				FA766A4D18099359009F4FAE /* C4ImageView.h */,
+				FA766A4E18099359009F4FAE /* C4Label.h */,
+				FA766A4F18099359009F4FAE /* C4Layer.h */,
+				FA766A5018099359009F4FAE /* C4LayerAnimation.h */,
+				FA766A5118099359009F4FAE /* C4Math.h */,
+				FA766A5218099359009F4FAE /* C4MethodDelay.h */,
+				FA766A5318099359009F4FAE /* C4Movie.h */,
+				FA766A5418099359009F4FAE /* C4MovieLayer.h */,
+				FA766A5518099359009F4FAE /* C4Notification.h */,
+				FA766A5618099359009F4FAE /* C4Object.h */,
+				FA766A5718099359009F4FAE /* C4Sample.h */,
+				FA766A5818099359009F4FAE /* C4ScrollView.h */,
+				FA766A5918099359009F4FAE /* C4Shape.h */,
+				FA766A5A18099359009F4FAE /* C4ShapeLayer.h */,
+				FA766A5B18099359009F4FAE /* C4Slider.h */,
+				FA766A5C18099359009F4FAE /* C4Stepper.h */,
+				FA766A5D18099359009F4FAE /* C4Switch.h */,
+				FA766A5E18099359009F4FAE /* C4Timer.h */,
+				FA766A5F18099359009F4FAE /* C4UIElement.h */,
+				FA766A6018099359009F4FAE /* C4Vector.h */,
+				FA766A6118099359009F4FAE /* C4View.h */,
+				FA766A6218099359009F4FAE /* C4ViewController.h */,
+				FA766A6318099359009F4FAE /* C4Window.h */,
+				FA766A6418099359009F4FAE /* UIColor+CIColorFix.h */,
+				FA766A6B18099359009F4FAE /* libC4.a */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		FA766A6D18099359009F4FAE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FA766A6E18099359009F4FAE /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA766A7F18099359009F4FAE /* AOI-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA766A8518099359009F4FAE /* AOI_1Tests.m */,
+				FA766A8018099359009F4FAE /* Supporting Files */,
+			);
+			path = "AOI-1Tests";
+			sourceTree = "<group>";
+		};
+		FA766A8018099359009F4FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA766A8118099359009F4FAE /* AOI-1Tests-Info.plist */,
+				FA766A8218099359009F4FAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA766A1018099358009F4FAE /* AOI-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA766A8918099359009F4FAE /* Build configuration list for PBXNativeTarget "AOI-1" */;
+			buildPhases = (
+				FA766A0D18099358009F4FAE /* Sources */,
+				FA766A0E18099358009F4FAE /* Frameworks */,
+				FA766A0F18099358009F4FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AOI-1";
+			productName = "AOI-1";
+			productReference = FA766A1118099358009F4FAE /* AOI-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA766A7718099359009F4FAE /* AOI-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA766A8C18099359009F4FAE /* Build configuration list for PBXNativeTarget "AOI-1Tests" */;
+			buildPhases = (
+				FA766A7418099359009F4FAE /* Sources */,
+				FA766A7518099359009F4FAE /* Frameworks */,
+				FA766A7618099359009F4FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA766A7E18099359009F4FAE /* PBXTargetDependency */,
+			);
+			name = "AOI-1Tests";
+			productName = "AOI-1Tests";
+			productReference = FA766A7818099359009F4FAE /* AOI-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA766A0918099358009F4FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = daigo3;
+				TargetAttributes = {
+					FA766A7718099359009F4FAE = {
+						TestTargetID = FA766A1018099358009F4FAE;
+					};
+				};
+			};
+			buildConfigurationList = FA766A0C18099358009F4FAE /* Build configuration list for PBXProject "AOI-1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA766A0818099358009F4FAE;
+			productRefGroup = FA766A1218099358009F4FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA766A1018099358009F4FAE /* AOI-1 */,
+				FA766A7718099359009F4FAE /* AOI-1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA766A0F18099358009F4FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA766A2F18099358009F4FAE /* InfoPlist.strings in Resources */,
+				FA233112180BB0BA00334826 /* bird3.mp3 in Resources */,
+				FA233116180BB0BA00334826 /* dog1.mp3 in Resources */,
+				FA233115180BB0BA00334826 /* bird27.mp3 in Resources */,
+				FA233113180BB0BA00334826 /* bird6.mp3 in Resources */,
+				FA233111180BB0BA00334826 /* bird1.mp3 in Resources */,
+				FA233117180BB0BA00334826 /* dog2.mp3 in Resources */,
+				FA233114180BB0BA00334826 /* bird13.mp3 in Resources */,
+				FA766A7018099359009F4FAE /* Main.storyboard in Resources */,
+				FA766A3518099358009F4FAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA766A7618099359009F4FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA766A8418099359009F4FAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA766A0D18099358009F4FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA766A3118099358009F4FAE /* main.m in Sources */,
+				FA766A7318099359009F4FAE /* C4WorkSpace.m in Sources */,
+				FA766A6618099359009F4FAE /* C4AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA766A7418099359009F4FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA766A8618099359009F4FAE /* AOI_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA766A7E18099359009F4FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA766A1018099358009F4FAE /* AOI-1 */;
+			targetProxy = FA766A7D18099359009F4FAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA766A2D18099358009F4FAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA766A2E18099358009F4FAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA766A6E18099359009F4FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA766A6F18099359009F4FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA766A8218099359009F4FAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA766A8318099359009F4FAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA766A8718099359009F4FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA766A8818099359009F4FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA766A8A18099359009F4FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOI-1/AOI-1-Prefix.pch";
+				INFOPLIST_FILE = "AOI-1/AOI-1-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/HD_Bay2_1/Dev/C4/AOI-1/AOI-1",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA766A8B18099359009F4FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOI-1/AOI-1-Prefix.pch";
+				INFOPLIST_FILE = "AOI-1/AOI-1-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/HD_Bay2_1/Dev/C4/AOI-1/AOI-1",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA766A8D18099359009F4FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AOI-1.app/AOI-1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOI-1/AOI-1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AOI-1Tests/AOI-1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA766A8E18099359009F4FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AOI-1.app/AOI-1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOI-1/AOI-1-Prefix.pch";
+				INFOPLIST_FILE = "AOI-1Tests/AOI-1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA766A0C18099358009F4FAE /* Build configuration list for PBXProject "AOI-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA766A8718099359009F4FAE /* Debug */,
+				FA766A8818099359009F4FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA766A8918099359009F4FAE /* Build configuration list for PBXNativeTarget "AOI-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA766A8A18099359009F4FAE /* Debug */,
+				FA766A8B18099359009F4FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA766A8C18099359009F4FAE /* Build configuration list for PBXNativeTarget "AOI-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA766A8D18099359009F4FAE /* Debug */,
+				FA766A8E18099359009F4FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA766A0918099358009F4FAE /* Project object */;
+}
